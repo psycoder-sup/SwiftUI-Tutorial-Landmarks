@@ -11,7 +11,8 @@ import SwiftUI
 struct Tutorial_LandmarksApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            LandmarkRow(landmark: landmarks[0])
         }
 
 //        ImmersiveSpace(id: "ImmersiveSpace") {
