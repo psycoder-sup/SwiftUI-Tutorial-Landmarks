@@ -12,7 +12,7 @@ struct Tutorial_LandmarksApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            LandmarkRow(landmark: landmarks[0])
+            LandmarkList()
         }
 
 //        ImmersiveSpace(id: "ImmersiveSpace") {
